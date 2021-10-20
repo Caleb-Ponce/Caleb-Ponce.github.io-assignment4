@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass half what?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="set1">
+        <button id="btnFadeOut">Fade Out</button>
+        <button id="btnFadeIn">Fade In</button>
+    </div>
+    <div id="set2">
+        <button id="btnFadeOut2">Fade Out</button>
+        <button id="btnFadeIn2">Fade In</button>
+    </div>
+    <div id="clear"></div>
+    <div id="box"><h1 id="text">I'm all out of GUR classes...</h1></div>
+    <div id="box2"><h1 id="text2">The final is worth 15% of my grade.</h1></div>
+    <div id="clear"></div>
+    <div id="set3">
+        <button id="btnFadeOut3">Fade Out</button>
+        <button id="btnFadeIn3">Fade In</button>
+    </div>
+    <div id="set4">
+        <button id="btnFadeOut4">Fade Out</button>
+        <button id="btnFadeIn4">Fade In</button>
+    </div>
+    <div id="clear"></div>
+    <div id="box3"><h1 id="text3">My friends canceled our weekend plans.</h1></div>
+    <div id="image"><img src="glass.jpg" alt="glass half meme"></div>
+    <div id="box4"><h1 id="text4"> I have 10,000 spoons</h1></div>
+    <div id="clear"></div>
+    <div id="set5">
+        <button id="btnFadeOut5">Fade Out</button>
+        <button id="btnFadeIn5">Fade In</button>
+    </div>
+    <div id="set6">
+        <button id="btnFadeOut6">Fade Out</button>
+        <button id="btnFadeIn6">Fade In</button>
+    </div>
+    <div id="clear"></div>
+    <div id="box5"><h1 id="text5">My website isn't done and it's due today.</h1></div>
+    <div id="box6"><h1 id="text6">I can't think of anymore things for my website.</h1></div>
+    
+</body>
+<script>
+    $(document).ready(function(){
+        $('#btnFadeOut').click(function(){
+            $('#box').fadeOut();
+        })
+    })
+    $(document).ready(function(){
+        $('#btnFadeIn').click(function(){
+            var box = document.getElementById('text')
+            if (box.textContent == 'Time to look into minors and certificates!'){
+                box.textContent = "I'm all out of GUR classes..."
+            }
+            else{
+                box.textContent = 'Time to look into minors and certificates!'
+            }
+                $('#box').fadeIn();
+        })
+    })
+    //Box2
+    $(document).ready(function(){
+        $('#btnFadeOut2').click(function(){
+            $('#box2').fadeOut();
+        })
+    })
+    $(document).ready(function(){
+        $('#btnFadeIn2').click(function(){
+            var box2 = document.getElementById('text2')
+            if (box2.textContent == 'The worst you can do is a B!'){
+                box2.textContent = "The final is worth 15% of my grade."
+            }
+            else{
+                box2.textContent = 'The worst you can do is a B!'
+            }
+                $('#box2').fadeIn();
+        })
+    })
+    $(document).ready(function(){
+        $('#btnFadeOut3').click(function(){
+            $('#box3').fadeOut();
+        })
+    })
+    $(document).ready(function(){
+        $('#btnFadeIn3').click(function(){
+            var box = document.getElementById('text3')
+            if (box.textContent == 'I can finally check out Squid Game.'){
+                box.textContent = "My friends canceled our weekend plans."
+            }
+            else{
+                box.textContent = 'I can finally check out Squid Game.'
+            }
+                $('#box3').fadeIn();
+        })
+    })
+    
+    $(document).ready(function(){
+        $('#btnFadeOut4').click(function(){
+            $('#box4').fadeOut();
+        })
+    })
+    $(document).ready(function(){
+        $('#btnFadeIn4').click(function(){
+            var box2 = document.getElementById('text4')
+            if (box2.textContent == 'All I need is a knife.'){
+                box2.textContent = "I have 10,000 spoons."
+            }
+            else{
+                box2.textContent = 'All I need is a knife.'
+            }
+                $('#box4').fadeIn();
+        })
+    })
+
+    $(document).ready(function(){
+        $('#btnFadeOut5').click(function(){
+            $('#box5').fadeOut();
+        })
+    })
+    $(document).ready(function(){
+        $('#btnFadeIn5').click(function(){
+            var box = document.getElementById('text5')
+            if (box.textContent == 'Seth is the coolest and can help me in the lab.'){
+                box.textContent = "My website isn't done and it's due today."
+            }
+            else{
+                box.textContent = 'Seth is the coolest and can help me in the lab.'
+            }
+                $('#box5').fadeIn();
+        })
+    })
+    
+    $(document).ready(function(){
+        $('#btnFadeOut6').click(function(){
+            $('#box6').fadeOut();
+        })
+    })
+    $(document).ready(function(){
+        $('#btnFadeIn6').click(function(){
+            var box2 = document.getElementById('text6')
+            if (box2.textContent == 'This is the last one.'){
+                box2.textContent = "I can't think of anymore things for my website."
+            }
+            else{
+                box2.textContent = 'This is the last one.'
+            }
+                $('#box6').fadeIn();
+        })
+    })
+</script>
+</html>

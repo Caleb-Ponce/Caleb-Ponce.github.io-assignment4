@@ -1,0 +1,91 @@
+body{
+    background-color: #c4e1ff;
+}
+#box{
+background-color: #338ccb;
+color: #1f2d39;
+width: 500px;
+height: 90px;
+padding: 50px;
+text-align: center;
+border: solid;
+float: left;
+}
+#box2{
+    background-color: #338ccb;
+    color: #1f2d39;
+    width: 500px;
+    height: 90px;
+    padding: 50px;
+    text-align: center;
+    border: solid;
+    float: right;
+    }
+#box3{
+    background-color: #338ccb;
+    color: #1f2d39;
+    width: 400px;
+    height: 90px;
+    padding: 50px;
+    text-align: center;
+    border: solid;
+    float: left;
+    }
+#box4{
+    background-color: #338ccb;
+    color: #1f2d39;
+    width: 400px;
+    height: 90px;
+    padding: 50px;
+    text-align: center;
+    border: solid;
+    float: right;
+    }
+#box5{
+    background-color: #338ccb;
+    color: #1f2d39;
+    width: 500px;
+    height: 90px;
+    padding: 50px;
+    text-align: center;
+    border: solid;
+    float: left;
+    }
+#box6{
+    background-color: #338ccb;
+    color: #1f2d39;
+    width: 500px;
+    height: 90px;
+    padding: 50px;
+    text-align: center;
+    border: solid;
+    float: right;
+    }
+#clear{
+    clear: both;
+}
+#set1{
+    float: left;
+}
+#set2{
+    float: right;
+}
+#set3{
+    float: left;
+}
+#set4{
+    float: right;
+}
+#set5{
+    float: left;
+}
+#set6{
+    float: right;
+}
+#image{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    z-index: -100000;
+    
+}
